@@ -23,14 +23,16 @@
 
 ১ম ধাপ এই রিপজিটরিটি ক্লোন করুন এর জন্য
 আপনার পাইের টারমিনাল ওপেন করুন এবং নিচের কমান্ডটি এক্সিকিউট করুন।
-git clone https://github.com/AkterAhsan/Mina
 
-INSTALL AUDIO CONFIG FILES
+ git clone https://github.com/AkterAhsan/Mina
 
-Update OS and Kernel
+এরপর অডিও কনফিগারেশন ফাইল ইন্সটল করুন।
+তার আগে ওএস পাইয়ের কার্নেল আপডেট করা জ্রুরি,টারমিনালে টাইপ করুন...
+
 sudo apt-get update  
 sudo apt-get install raspberrypi-kernel  
-Restart Pi
+
+আপডেট হয়ে গেলে পাই রিস্টার্ট দিন
 
 Choose the audio configuration according to your setup.
 (Run the commands till you get .bak notification in the terminal)
