@@ -1,16 +1,16 @@
-Mina -- Assistant for all Raspberry Pi Boards
+মিনা  -- ভার্চুয়াল এসিস্টেন্ট রাসবেরী পাই বোর্ডের জন্য।
 
-Pi Zero - forked and modified from warchildmd's repo (https://github.com/warchildmd/google-assistant-hotword-raspi)
+পাই জিরো এর জন্য এই রিপজি্টরী ব্যবহার করুন।। (https://github.com/warchildmd/google-assistant-hotword-raspi)
 
-Features:
+বৈশিষ্ট্য:
 
-1. Headless auto start on boot with multiple custom wakeword activation triggers.
-2. Voice control of GPIOs without IFTTT, api.ai, Actions SDK.
-3. Voice control of servo connected to RPi GPIO.
-4. Safe shutdown RPi using voice command.
-5. Stream Music from YouTube.
-6. Indicator lights for assistant listening and speaking events.
-7. Startup audio and audio feedback for wakeword detection.
+1. একাধিক কাস্টম wakeword অ্যাক্টিভেশন ট্রিগার, সঙ্গে বুট শুরু হেডলেস অটোস্টার্ট।
+2. IFTTT,api.ai, Actions SDK ছাড়া GPIO- র ভয়েস কন্ট্রোল।
+3. ভয়েস কন্ট্রোল এর মাধ্যমে RPi GPIO- এর সাথে সংযুক্ত সার্ভো মোটর কন্ট্রোল। 
+4. ভয়েস কমান্ড ব্যবহার করে সেফ শাটডাউন।
+5. ইউটিউব থেকে মিউ্জিক স্ট্রিম করা।
+শোনা ও বলার সময় নির্দেশক লাইট।
+7. wakeword সনাক্তকরণের জন্য স্টার্ট আপ অডিও এবং অডিও ফিডব্যাক।
 
 Features coming soon:
 
