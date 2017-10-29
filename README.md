@@ -2,7 +2,7 @@
 
 পাই জিরো এর জন্য এই রিপজি্টরী ব্যবহার করুন।। (https://github.com/warchildmd/google-assistant-hotword-raspi)
 
-বৈশিষ্ট্য:
+ফিচার:
 
 1. একাধিক কাস্টম wakeword অ্যাক্টিভেশন ট্রিগার, সঙ্গে বুট শুরু হেডলেস অটোস্টার্ট।
 2. IFTTT,api.ai, Actions SDK ছাড়া GPIO- র ভয়েস কন্ট্রোল।
@@ -12,17 +12,18 @@
 শোনা ও বলার সময় নির্দেশক লাইট।
 7. wakeword সনাক্তকরণের জন্য স্টার্ট আপ অডিও এবং অডিও ফিডব্যাক।
 
-Features coming soon:
+নুতুন যেসব ফিচার আসছে:
 
-1. Mute button.
-2. Neopixel indicator without Arduino.
+1. Mute করার বাটন.
+2.গুগল হোমের মত নিও্পিক্সেল ইন্ডিকেটর.
 
-This is implemented in Python2 so your existing Google Assistant may not work. So please start by making a fresh copy of latest Raspbian Stretch
+এই প্রোজেক্টটি পাইথন ২ তে করা, কিন্তু অরিজিনাল গুগল এসিস্টেন্ট পাইথন ৩ তে করা, তাই কেউ যদি আগের গুগল এসিস্টেন্ট ব্যবহার করতে চান তাহলে হবে না।
+তাই এক কপি ফ্রেস লেটেস্ট Raspbian Stretch আইএসও ব্যবহার করুন।
 
-FIRST STEP- CLONE the PROJECT on to Pi
 
-Open the terminal and execute the following
-git clone https://github.com/
+১ম ধাপ এই রিপজিটরিটি ক্লোন করুন এর জন্য
+আপনার পাইের টারমিনাল ওপেন করুন এবং নিচের কমান্ডটি এক্সিকিউট করুন।
+git clone https://github.com/AkterAhsan/Mina
 
 INSTALL AUDIO CONFIG FILES
 
